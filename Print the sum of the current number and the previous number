@@ -1,0 +1,7 @@
+N = int(input("Enter the number: "))
+previous_num = 0
+for i in range(0,N):
+    cur_num = i
+    current_num = i + previous_num
+    print("Current Number",cur_num,"Previous Number",previous_num,"Sum",current_num)
+    previous_num = i
